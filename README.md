@@ -16,17 +16,19 @@
 
 ## 安装
 
-**一键安装**（推荐）：
+**一键安装**（推荐，走 git clone，国内可用）：
 
 ```bash
-# macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.sh | bash
+# macOS / Linux / Windows 通用（需 git）
+git clone --depth 1 https://github.com/SimonsTang/caixing-film-one.git ~/.workbuddy/skills/caixing-film-one
 ```
 
 ```powershell
-# Windows (PowerShell)
-irm https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.ps1 | iex
+# Windows (PowerShell)，指定用户目录
+git clone --depth 1 https://github.com/SimonsTang/caixing-film-one.git "$env:USERPROFILE\.workbuddy\skills\caixing-film-one"
 ```
+
+仓库内另附 `install.sh` / `install.ps1`，含自动备份旧版逻辑。若已安装过，先删除旧目录再 clone。
 
 或手动复制到 WorkBuddy 用户级技能目录：
 

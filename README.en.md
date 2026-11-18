@@ -20,17 +20,18 @@ Copy into the WorkBuddy user-level skills directory:
 cp -r caixing-film-one ~/.workbuddy/skills/
 ```
 
-Or use the one-click installer:
+Or use git clone (works in mainland China; requires git):
 
 ```bash
-# macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.sh | bash
-
-# Windows (PowerShell)
-irm https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.ps1 | iex
+git clone --depth 1 https://github.com/SimonsTang/caixing-film-one.git ~/.workbuddy/skills/caixing-film-one
 ```
 
-Restart the session to activate.
+```powershell
+# Windows (PowerShell)
+git clone --depth 1 https://github.com/SimonsTang/caixing-film-one.git "$env:USERPROFILE\.workbuddy\skills\caixing-film-one"
+```
+
+The repo also ships `install.sh` / `install.ps1` with automatic backup of any old install. Delete an existing directory before cloning again. Restart the session to activate.
 
 ## Usage
 
