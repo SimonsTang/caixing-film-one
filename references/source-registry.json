@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1",
+  "last_reviewed": "2026-11-18",
+  "scope_note": "Curated starting points distilled from Douban long-form reviews, Rotten Tomatoes critic consensus, Wikipedia entries, and GitHub skill repositories. Entries are not exhaustive; re-verify before consequential use.",
+  "sources": [
+    {
+      "id": "douban-king-of-comedy-review",
+      "title": "《喜剧之王》为什么是喜剧之王",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/4659066/",
+      "source_type": "film-criticism",
+      "confidence": 0.8,
+      "topics": ["thymos", "dignity", "emotional-reversal"]
+    },
+    {
+      "id": "douban-kungfu-hustle-review",
+      "title": "全方位深析《功夫》，兼谈周星驰的导演风格",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/6674883/",
+      "source_type": "film-criticism",
+      "confidence": 0.8,
+      "topics": ["escalation", "object-callback", "restraint"]
+    },
+    {
+      "id": "douban-chinese-odyssey-review",
+      "title": "你理解大话西游片尾那句『他好像一条狗』吗",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/5199026/",
+      "source_type": "film-criticism",
+      "confidence": 0.8,
+      "topics": ["sacrifice", "fate-rule", "pathos"]
+    },
+    {
+      "id": "douban-judge-review",
+      "title": "细思极恐的搞笑片（九品芝麻官）",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/8977709/",
+      "source_type": "film-criticism",
+      "confidence": 0.8,
+      "topics": ["object-callback", "rule-paradox", "tragic-ending"]
+    },
+    {
+      "id": "douban-god-of-cooking-review",
+      "title": "《破坏之王》：周星驰的世俗理想",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/1335851/",
+      "source_type": "film-criticism",
+      "confidence": 0.75,
+      "topics": ["critique", "formula", "social-norm"]
+    },
+    {
+      "id": "douban-cj7-review",
+      "title": "从良了，就别来找我",
+      "publisher": "豆瓣电影",
+      "url": "https://movie.douban.com/review/1298600/",
+      "source_type": "film-criticism",
+      "confidence": 0.75,
+      "topics": ["co-optation", "edge", "critique"]
+    },
+    {
+      "id": "rt-kung-fu-hustle",
+      "title": "Kung Fu Hustle - Rotten Tomatoes",
+      "publisher": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/kung_fu_hustle",
+      "source_type": "review-aggregator",
+      "confidence": 0.9,
+      "topics": ["live-action-cartoon", "genre-bending"]
+    },
+    {
+      "id": "rt-shaolin-soccer",
+      "title": "Shaolin Soccer - Rotten Tomatoes",
+      "publisher": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/shaolin_soccer",
+      "source_type": "review-aggregator",
+      "confidence": 0.9,
+      "topics": ["underdog", "visual-gag"]
+    },
+    {
+      "id": "rt-journey-to-the-west",
+      "title": "Journey to the West: Conquering the Demons - Rotten Tomatoes",
+      "publisher": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/journey_to_the_west_conquering_the_demons",
+      "source_type": "review-aggregator",
+      "confidence": 0.9,
+      "topics": ["genre-stacking", "tonal-shift"]
+    },
+    {
+      "id": "wikipedia-chinese-odyssey",
+      "title": "A Chinese Odyssey (mirrored Wikipedia entry)",
+      "publisher": "Wikipedia via mirror",
+      "url": "https://en.wikipedia.org/wiki/A_Chinese_Odyssey",
+      "source_type": "encyclopedia",
+      "confidence": 0.7,
+      "access_notes": "Direct Wikipedia fetch failed in research environment; content obtained via search-indexed mirrors. Verify against official URL before consequential use.",
+      "topics": ["cult-film", "intertextuality"]
+    },
+    {
+      "id": "github-stephen-chow-skill",
+      "title": "chnjames/stephen-chow-skill",
+      "publisher": "GitHub",
+      "url": "https://github.com/chnjames/stephen-chow-skill",
+      "source_type": "methodology-repository",
+      "confidence": 0.9,
+      "topics": ["mechanism-framework", "originality-guard", "research-protocol"]
+    },
+    {
+      "id": "github-humor-skill",
+      "title": "caicai688/humor.skill",
+      "publisher": "GitHub",
+      "url": "https://github.com/caicai688/humor.skill",
+      "source_type": "methodology-repository",
+      "confidence": 0.7,
+      "topics": ["persona-skill", "safety-word", "comedy-techniques"]
+    }
+  ]
+}
