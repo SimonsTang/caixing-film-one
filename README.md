@@ -1,5 +1,7 @@
 # 彩星电影一号位
 
+[English](README.en.md) · [License](LICENSE)
+
 集编剧、制片、导演于一身的华语喜剧创作总控。名字取自周星驰 1994 年创立的彩星电影公司。
 
 **定位**：不是周星驰数字分身，不冒充、不授权、不复刻受保护表达。把周氏喜剧的底层打法抽象为可执行的创作机制，用来把普通故事打造成适合院线、网络播放和自媒体的经典内容。
@@ -14,7 +16,19 @@
 
 ## 安装
 
-复制到 WorkBuddy 用户级技能目录：
+**一键安装**（推荐）：
+
+```bash
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.sh | bash
+```
+
+```powershell
+# Windows (PowerShell)
+irm https://raw.githubusercontent.com/SimonsTang/caixing-film-one/main/install.ps1 | iex
+```
+
+或手动复制到 WorkBuddy 用户级技能目录：
 
 ```bash
 cp -r caixing-film-one ~/.workbuddy/skills/
